@@ -85,7 +85,7 @@ function typeLine() {
   if (lineIndex < pythonCode.length) {
     const lineContent = pythonCode[lineIndex];
 
-    if (lineContent.includes("ali.bio()")) {
+    if (lineContent.includes("amir.bio()")) {
       printLine(lineContent);
       simulateBio();
     } else {
